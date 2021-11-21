@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.container-flex {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding: 26px;
+    text-align: center;
+}
+
+header a {
+    color: #bdc3c7;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header a + a{
+    margin-left: 30px;
+}
+
+.back {
+    width: 250px;
+    position: absolute;
+    border-radius: 5px 5px 50% 50%;
+    top: -70px;
+    left: -35px;
+    text-align: center;
+    border: 1px solid #ecf0f1;
+    box-shadow: 0px 3px 10px -1px #00000091;
+}
+
+.social {
+    text-align: center;
+    display: block;
+    height: 20vh;
+}
+
+.social h1 {
+    margin-left: -30px;
+    margin-top: 5px;
+    padding: 24px;
+
+    background-color: #dfe6e9;
+    border-radius: 50px;
+
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+/* =======> Social Midia <=======*/
+
+
+
+.social .socialMedia {
+    margin-left: -720px;
+    margin-top: 100px;
+}
+
+.social .socialMedia i {
+    font-size: 24px;
+}
+
+.social .socialMedia a {
+    color: #000;
+}
+
+.social .socialMedia a + a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.fa-linkedin-in {
+    color: #0984e3;
+}
+
+.fa-instagram{
+    background: linear-gradient(to bottom, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F77737, #FCAF45, #FFDC80);
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    color: #2e86de;
+}
+
+/* =======> info <======= */
+
+.info {
+    margin-top: 150px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: 15px;
+}
+
+/* =======> Skills <======= */
+
+.skills {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.skills h3 {
+    color: rgba(25, 144, 255);
+    font-size: 24px;
+}
+
+.skills h4 {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.skills li {
+    font-weight: normal;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: 15px;
+    margin-left: 16px;
+}
+
+/*=======> Indications <=======*/
+
+
+.indications{
+    margin-bottom: 50px;
+}
+.indications nav {
+    margin-top: 15px;
+}
+
+.indications nav a {
+    
+    font-weight: normal;
+    font-size: 14px;
+    color: #27ae60;
+    cursor: pointer;
+}
+
+.indications nav a + a {
+    margin-left: 30px;
+}
+
+.indications h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* =======> Informativo <======= */
+
+.informativo {
+    margin-bottom: 40px;
+}
+
+.informativo p {
+    margin-bottom: 15px;
+}
+
+.curricular li {    
+    margin-left: 16px;
+}
+
+.returnTop .fa-arrow-alt-circle-up{
+    position: absolute;
+    font-size: 30px;
+    right: 25px;
+    bottom: 16px;
+    color: #000;
+}
+
+
+
